@@ -1,6 +1,8 @@
 # Vote your meta!
 > Simple Vue.js project for up- and down voting simple pieces of content.
 
+[DEMO](https://vseventer.github.io/vote-your-meta)
+
 ## Getting Started
 * Start a web server (e.g. `python -m SimpleHTTPServer`).
 * Open `index.html`.
