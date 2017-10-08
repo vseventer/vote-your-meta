@@ -21,6 +21,7 @@ The design of the app is very simple, a list of meta items, and simple error / l
 This app is very simple, with plenty of room for improvement:
 * Wrap this app into a build process (e.g. using webpack, with Babel as transpiler, plus optimization / minification).
 * Add tests for Vue.js components.
+* If up- our downvoting changes the sorting, there should ideally be a debounce / smooth transition.
 * A better UI - currently there is only support for text, links, YouTube videos, and images.
 
 ## Troubleshooting
