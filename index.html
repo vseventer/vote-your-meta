@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Vote your meta!</title>
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <meta name="description" content="Up- or downvote any text, video, or image">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="app">
+      <h1 class="title">Vote your meta!</h1>
+
+      <p class="error" v-if="error.hasError">Error: {{ error.message }}</p>
+
+      <list v-bind:items="sortedItems" v-else />
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.4/vue.js"></script>
+    <script src="js/vendor/vue.bus.js"></script>
+    <script src="js/components/list-item.js"></script>
+    <script src="js/components/list.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
